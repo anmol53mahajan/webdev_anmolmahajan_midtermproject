@@ -41,7 +41,7 @@ startbtn.addEventListener('click',function(){
 
             new Notification("Timer finished!");
 
-            let beep = new Audio("beep.mp3");
+            let beep = new Audio("timer_alarm.mp3");
             beep.play();
         }
     }, 1000);
